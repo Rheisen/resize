@@ -1,0 +1,62 @@
+* {
+	padding:0px;
+	margin:0px;
+	min-height:0px;
+}
+
+body {
+	background-image:url(../img/graph_bg.jpg);
+}
+
+#header {
+	background-color:#D0D0D0;
+	overflow:hidden;
+}
+
+#footer {
+	background-color:#D0D0D0;
+	overflow:hidden;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	text-align:center;
+}
+
+.logo_img {
+	float:left;
+}
+
+.header_link {
+	font-weight:600;
+	color:#00CCFF;
+	text-decoration:none;
+	letter-spacing:2px;
+	float:left;
+	background-color:#777777;
+	-webkit-transition:color .5s, -webkit-transform .5s;
+	-moz-transition:color .5s, -moz-transform .5s;
+	transition:color .5s, transform .5s;
+}
+
+.header_link:nth-child(2) {
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+.header_link:last-child {
+	border-bottom-right-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.header_link:hover {
+	color:white;
+	-webkit-transition:color .5s, -webkit-transform .5s;
+	-moz-transition:color .5s, -moz-transform .5s;
+	transition:color .5s, transform .5s;
+}
+
+.footer_text {
+	font-family: 'Raleway', sans-serif;
+	color:#000000;
+	letter-spacing:2px;
+	width:100%;
+}

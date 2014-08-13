@@ -1,0 +1,24 @@
+#content_section_one {
+	background-color:#777777;
+	margin:auto;
+	border-radius:15px;
+	overflow:hidden;
+}
+
+#box_one {
+	background-color:#ffffff;
+	float:left;
+}
+
+#box_two, #box_three {
+	background-color:#ffffff;
+	float:left;
+}
+
+.section_one_header {
+	color:#ffffff;
+	letter-spacing:2px;
+	float:left;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+}
