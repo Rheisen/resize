@@ -22,3 +22,13 @@
 	font-family: 'Raleway', sans-serif;
 	width:100%;
 }
+
+.github {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	padding-left:3%;
+}
+
+.github:hover {
+	color:orange;
+}
